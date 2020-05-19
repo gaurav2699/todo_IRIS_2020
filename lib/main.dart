@@ -170,7 +170,8 @@ class _MyHomePageState extends State<MyHomePage> {
                                           TodoModel mTodo = TodoModel(
                                               title: todo.title,
                                               detail: todo.detail,
-                                              isCompleted: true
+                                              isCompleted: true,
+                                             date: _dateTime,
                                           );
 
                                           todoBox.put(key, mTodo);
